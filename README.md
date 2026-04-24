@@ -23,4 +23,4 @@ Predicts machine failure using sensor data to reduce downtime and maintenance co
 - Accuracy: XX%
 
 ##Streamlit App
-Runs locally
+- Runs locally
