@@ -34,15 +34,15 @@ if st.button("Predict"):
     st.subheader("Result")
 
     if pred == 1:
-        st.error("⚠️ MACHINE FAILURE RISK")
+        st.error("MACHINE FAILURE RISK")
     else:
-        st.success("✅ MACHINE HEALTHY")
+        st.success("MACHINE HEALTHY")
 
     st.write(f"Failure Probability: {prob*100:.2f}%")
 
     if prob < 0.3:
-        st.success("Low Risk 🟢")
+        st.success("Low Risk")
     elif prob < 0.7:
-        st.warning("Medium Risk 🟡")
+        st.warning("Medium Risk")
     else:
-        st.error("High Risk 🔴")
+        st.error("High Risk")
